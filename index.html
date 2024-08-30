@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <link rel="stylesheet" href="style.css">  <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li> <!-- Link to login page -->
+                <li><a href="register.html">Register</a></li> <!-- Link to register page -->
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1> MASTER CHEF</h1>
+        <p>Come and enjoy our delicious food!</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqKW1ygjDHtMGk9A3RoDtCvO5Mri-rGMkPnTDma2uWGNwWVmc2CzcUirUUOQ&s" alt="Delicious Food">
+        
+        <section id="menu">
+            <h2>Our Menu</h2>
+            
+            <!-- Appetizers -->
+            <div class="menu-category">
+                <h3>Appetizers</h3>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <span class="item-name">Bruschetta</span>
+                        <span class="item-description">Grilled bread with tomatoes and basil</span>
+                        <span class="item-price">800/-</span>
+                    </li>
+                    <li class="menu-item">
+                        <span class="item-name">Mozzarella Sticks</span>
+                        <span class="item-description">Fried mozzarella with marinara sauce</span>
+                        <span class="item-price">900/-</span>
+                    </li>
+                    <!-- Add more appetizers as needed -->
+                </ul>
+            </div>
+            
+            <!-- Main Courses -->
+            <div class="menu-category">
+                <h3>Main Courses</h3>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <span class="item-name">Lasagna</span>
+                        <span class="item-description">Layers of pasta with meat sauce and cheese</span>
+                        <span class="item-price">1500/-</span>
+                    </li>
+                    <li class="menu-item">
+                        <span class="item-name">Grilled Salmon</span>
+                        <span class="item-description">Salmon fillet with lemon and herbs</span>
+                        <span class="item-price">2000/-</span>
+                    </li>
+                    <!-- Add more main courses as needed -->
+                </ul>
+            </div>
+            
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <span class="item-name">Tiramisu</span>
+                        <span class="item-description">Coffee-flavored Italian dessert</span>
+                        <span class="item-price">600/-</span>
+                    </li>
+                    <li class="menu-item">
+                        <span class="item-name">Cheesecake</span>
+                        <span class="item-description">Classic New York cheesecake</span>
+                        <span class="item-price">1300/-</span>
+                    </li>
+                    <!-- Add more desserts as needed -->
+                </ul>
+            </div>
+            
+            <!-- Beverages -->
+            <div class="menu-category">
+                <h3>Beverages</h3>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <span class="item-name">Cappuccino</span>
+                        <span class="item-description">Espresso with steamed milk foam</span>
+                        <span class="item-price">500/-</span>
+                    </li>
+                    <li class="menu-item">
+                        <span class="item-name">Iced Tea</span>
+                        <span class="item-description">Freshly brewed iced tea</span>
+                        <span class="item-price">200/-</span>
+                    </li>
+                    <!-- Add more beverages as needed -->
+                </ul>
+            </div>
+        </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>[This Restauranty is Unique from other restaurants beacuse there will be masterchefs from all parts of the world]</p>
+    </section>
+    <section id="reservations">
+        <h2>Reservations</h2>
+        <form>
+            <label for="name">Name:"special candle light dinner"</label>
+            <input type="text" id="name" name="name">
+           
+            <label for="date">Date:29-08-24</label>
+            <input type="date" id="date" name="date">
+           
+            <label for="time">Time:7:30pm</label>
+            <input type="time" id="time" name="time">
+           
+            <label for="guests">Number of Guests:40</label>
+            <input type="number" id="guests" name="guests">
+           
+            <input type="submit" value="Reserve">
+        </form>
+    </section>
+<footer>
+    <div class="footer-container">
+       
+        <!-- Contact Information -->
+        <div class="footer-section contact-info">
+            <h3>Contact Us</h3>
+            <p><strong>Address:</strong> Opposite to Gannavarmn Airport, Vijayawada</p>
+            <p><strong>Phone:</strong> 8934236782</p>
+            <p><strong>Email:</strong> MasterChef@gmail.com</p>
+        </div>
+       
+        <!-- Social Media Links -->
+        <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </div>
+       
+        <!-- Operating Hours -->
+        <div class="footer-section operating-hours">
+            <h3>Operating Hours</h3>
+            <p>Monday - Friday: 10:00 AM - 10:00 PM</p>
+            <p>Saturday - Sunday: 11:00 AM - 11:00 PM</p>
+        </div>
+
+        <!-- Quick Links (Optional) -->
+        <div class="footer-section quick-links">
+            <h3>Quick Links</h3>
+            <a href="#menu">Menu</a>
+            <a href="#reservations">Reservations</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+   
+    <!-- Copyright Information -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 MASTER CHEF. All rights reserved.</p>
+    </div>
+</footer>
